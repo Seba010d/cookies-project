@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Assets/Css/Style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies</title>
+    <link rel="stylesheet" href="Assets/Css/Style.css" />
     <script src="Assets/JS/index.js" defer></script>
-</head>
-<body>
-    
-    
-    
-</body>
+  </head>
+  <body>
+    <div id="cookie-consent" class="cookie-consent">
+      <p>
+        This website uses cookies to ensure you get the best experience on our
+        website. Please select your cookie preferences:
+      </p>
+      <div id="cookie-options">
+        <label><input type="checkbox" id="needed-cookies" />needed Cookies</label><br/>
+        <label><input type="checkbox" id="comercial-cookies" />comercial Cookies</label><br/>
+        <label><input type="checkbox" id="all-cookies" />all Cookies</label><br/>
+        <button id="save-preferences">Save Preferences</button>
+      </div>
+      <button id="accept-all">Accept All</button>
+      <button id="deny-all">Deny All</button>
+      <button id="customize">Customize</button>
+    </div>
+    <div id="main-content">
+      <h1>Welcome to my Website</h1>
+      <p>
+        This is the main content of the website that is hidden until cookie
+        consent is given.
+      </p>
+    </div>
+  </body>
 </html>
